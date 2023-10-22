@@ -1,0 +1,35 @@
+body {
+    background: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.header-container {
+    height: 100%;
+    width:100%;
+}
+
+.post-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    width: 100%;
+    position: absolute;
+}
+
+.post-button {
+    font-size: 16px;
+    background: #cfb53b;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    width: 125px;
+    margin: 0 10px;
+}
+
+.post-button:hover {
+    background: #0000ff;
+    color: white;
+}

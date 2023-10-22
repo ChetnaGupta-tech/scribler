@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: #ffeedd;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Montez", cursive;
+    font-size: 35px;
+    color: #0000ff;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.logo-subheading {
+    font-family: "Ubunto Mono", cursive;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.header-button {
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #0000ff;
+    color: #ffff;
+    margin: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
